@@ -18,7 +18,7 @@
                 <iframe class="pdfcomp" src="../pdf/autre/Analyse RGPD Candysan.pdf" width="90%" height="100%"></iframe>
             </div>
             <div style="text-align: center;">
-                Télécharger le pdf <a href="../pdf/../pdf/autre/Analyse RGPD Candysa.pdf">ici</a>
+                Télécharger le pdf <a href="../pdf/autre/Analyse RGPD Candysa.pdf">ici</a>
             </div>
         </div> 
     </div>
@@ -28,10 +28,10 @@
         <div class="in_bulle_1">
             <h3 style="text-align: center;">Dossier Cybercriminalité</h3>
             <div class="pdfcar">
-                <iframe class="pdfcomp" src="../pdf/autre/Dossier Cybercriminalité.pdf" width="90%" height="100%"></iframe>
+                <iframe class="pdfcomp" src="../pdf/autre/Dossier Cybercriminalite.pdf" width="90%" height="100%"></iframe>
             </div>
             <div style="text-align: center;">
-                Télécharger le pdf <a href="../pdf/../pdf/autre/Dossier Cybercriminalité.pdf">ici</a>
+                Télécharger le pdf <a href="../pdf/autre/Dossier Cybercriminalite.pdf">ici</a>
             </div>
         </div> 
     </div>
@@ -43,7 +43,7 @@
                 <iframe class="pdfcomp" src="../pdf/autre/GLPI Debian 10.pdf" width="90%" height="100%"></iframe>
             </div>
             <div style="text-align: center;">
-                Télécharger le pdf <a href="../pdf/../pdf/autre/GLPI Debian 10.pdf">ici</a>
+                Télécharger le pdf <a href="../pdf/autre/GLPI Debian 10.pdf">ici</a>
             </div>
         </div> 
     </div>
@@ -55,7 +55,7 @@
                 <iframe class="pdfcomp" src="../pdf/autre/Veille technologique.pdf" width="90%" height="100%"></iframe>
             </div>
             <div style="text-align: center;">
-                Télécharger le pdf <a href="../pdf/../pdf/autre/Veille technologique.pdf">ici</a>
+                Télécharger le pdf <a href="../pdf/autre/Veille technologique.pdf">ici</a>
             </div>
         </div> 
     </div>
@@ -67,7 +67,11 @@
                 <iframe class="pdfcomp" src="../pdf/autre/wiki phasmofobia-1.pdf" width="90%" height="100%"></iframe>
             </div>
             <div style="text-align: center;">
-                Télécharger le pdf <a href="../pdf/../pdf/autre/wiki phasmofobia-1.pdf">ici</a>
+                Télécharger le pdf <a href="../pdf/autre/wiki phasmofobia-1.pdf">ici</a>
+                <br><br>
+                Maintenance ubuntu <a href="../pdf/winunbu/Maintenance Ubuntu.pdf">ici</a>
+                <br>
+                Maintenance Windows <a href="../pdf/winunbu/Maintenance Windows.pdf">ici</a>
             </div>
         </div> 
     </div>
