@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
-    <title>Portfolio Duquenne Melwin</title>
+    <title>Document</title>
 </head>
 <body>
     <section class="scene">
@@ -39,13 +39,13 @@
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                PPE/TP
+                                                PPE
                                             </a>
                                             <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
                                                 <li><a class="dropdown-item" href="PPE1.php">PPE1</a></li>
                                                 <li><a class="dropdown-item" href="PPE2.php">PPE2</a></li>
                                                 <li><a class="dropdown-item" href="PPE3.php">PPE3</a></li>
-                                                <li><a class="dropdown-item" href="GLPI.php">GLPI</a></li>
+                                                <li><a class="dropdown-item" href="autre.php">Autre</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -54,14 +54,8 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="veille.php">Veille</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Stage
-                                            </a>
-                                            <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
-                                                <li><a class="dropdown-item" href="stage1.php">One way formation</a></li>
-                                                <li><a class="dropdown-item" href="stage2.php">Once upon a time </a></li>
-                                            </ul>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="stage.php">Stage</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -73,7 +67,7 @@
         </div>
         <div class="carrétitrelu">
             <div class="carrétitrelu_centrer">
-            <a href="accueil.php"><img src="../image/titre_flue.png" class="titre_gris"></a>
+            <img src="../image/titre_flue.png" class="titre_gris">
             </div>
         </div>
     </div>  

@@ -12,6 +12,11 @@ main { overflow-x:auto }
     overflow-x: hidden;
 }
 
+.debut1 .scene {
+    background: linear-gradient( #ff822e, #ffd270,white);
+    overflow-x: hidden;
+}
+
 .debutnuit .scene {
     background: linear-gradient( #7c6cbd, #f1b7ff,white);
     overflow-x: hidden;
@@ -31,7 +36,8 @@ main { overflow-x:auto }
     background: linear-gradient( #4fc8f8, #aeeffa,white);
     overflow-x: hidden;
 }
-.midiap1 .scene {
+
+.midiap2 .scene {
     background: linear-gradient( #4fc8f8, #aeeffa,white);
     overflow-x: hidden;
 }
@@ -69,7 +75,18 @@ main { overflow-x:auto }
     box-shadow: 0 0 30px rgb(251, 255, 13);
     transition: 1s;
 }
-
+.debut1 .sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 600px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transform: translateX(-50%);
+    box-shadow: 0 0 30px rgb(251, 255, 13);
+    transition: 1s;
+}
 .normal .sun {
     position: absolute;
     width: 100px;
@@ -99,6 +116,19 @@ main { overflow-x:auto }
 }
 
 .midiap .sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 450px;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transform: translateX(-50%);
+    box-shadow: 0 0 30px rgb(254, 255, 180);
+    transition: 3s;
+}
+
+.midiap2 .sun {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -248,41 +278,9 @@ main { overflow-x:auto }
     position: absolute;
     width: 100%;
     top: 225px;
-    
-}
-.normal .carrétitrelu{
     text-align: center;
 }
-.debut .carrétitrelu{
-    text-align: center;
-}
-.midi .carrétitrelu{
-    text-align: center;
-}
-.midiap .carrétitrelu{
-    text-align: center;
-}
-.apresmid .carrétitrelu{
-    text-align: center;
-}
-.debutnuit .carrétitrelu{
-    text-align: center;
-}
-.dark .carrétitrelu {
-    width: 50%;
-}
-.dark .titre_gris {
-    position: absolute;
-    height: 160px;
-    width: 320px;
-    left: 80%;
-}
-@media (max-width: 1320px) {
-.dark .titre_gris {
-width: 0px;
-height: 0px;
-}
-}
+
 .titre_gris{
     height: 160px;
     width: 320px;
@@ -630,24 +628,31 @@ background-color: rgba(0, 0, 0, 0.4);
     height: 1400px;
 }
 
+.debut1 .carré_index {
+    width: auto;
+    height: 1000px;
+}
+
 .normal .carré_index {
     width: auto;
-    height: 1900px;
+    height: 2000px;
 }
 
 .midi .carré_index {
     width: auto;
-    height: 2300px;
+    height: 1400px;
 }
 
 .midiap .carré_index {
     width: auto;
-    height: 2800px;
+    height: 1800px;
 }
-.midiap1 .carré_index {
+
+.midiap2 .carré_index {
     width: auto;
-    height: 3600px;
+    height: 4800px;
 }
+
 .apresmid .carré_index {
     width: auto;
     height: 1400px;
@@ -672,8 +677,10 @@ background-color: rgba(0, 0, 0, 0.4);
     margin-left: auto;
     margin-right: auto;
 }
-.debut .bulle_3 {
+
+.debut1 .bulle_1 {
     position: relative;
+    top:100px;
     width: 900px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.553);
@@ -682,6 +689,7 @@ background-color: rgba(0, 0, 0, 0.4);
     margin-left: auto;
     margin-right: auto;
 }
+
 .normal .bulle_1 {
     position: relative;
     width: 900px;
@@ -702,7 +710,8 @@ background-color: rgba(0, 0, 0, 0.4);
     margin-left: auto;
     margin-right: auto;
 }
-.midiap1 .bulle_1 {
+
+.midiap2 .bulle_1 {
     position: relative;
     width: 900px;
     height: 800px;
@@ -712,6 +721,7 @@ background-color: rgba(0, 0, 0, 0.4);
     margin-left: auto;
     margin-right: auto;
 }
+
 .bulle_1 {
     position: relative;
     width: 900px;
@@ -768,6 +778,24 @@ background-color: rgba(0, 0, 0, 0.4);
 .dark .bulle_1 {
     background-color: rgba(40, 37, 54, 0.553);
       box-shadow: 0 0 80px rgb(46, 37, 54);
+    height: 700px;
+
+}
+.dark .in_bulle_1 {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    left: 50px;
+    top: 50px;
+    margin-left: 30px;
+
+}
+
+@media (max-width : 900px){
+.pdfcomp {
+    
+   width: 70%;
+}
 
 }
 .midiap .in_bulle_1{
@@ -777,26 +805,19 @@ background-color: rgba(0, 0, 0, 0.4);
     left: 50px;
     top: 50px;
 }
-.midiap1 .in_bulle_1{
+
+.midiap2 .in_bulle_1{
     position: absolute;
     width: 800px;
     height: 600px;
-    left: 50px;
-    top: 50px;
-}
-.in_bulle_1{
-    position: absolute;
-    width: 800px;
-    height: 400px;
     left: 50px;
     top: 50px;
 }
 
-.dark .in_bulle_2 {
-    color: white;
+.in_bulle_1{
     position: absolute;
     width: 800px;
-    height: 600px;
+    height: 400px;
     left: 50px;
     top: 50px;
 }
@@ -838,36 +859,39 @@ background-color: rgba(0, 0, 0, 0.4);
     position: relative;
     top: 200px;
     width: 900px;
-    height: 750px;
+    height: 500px;
     background-color: rgba(233, 233, 233, 0.74);
-    box-shadow: 0 0 80px rgb(226, 226, 226);
+      box-shadow: 0 0 80px rgb(226, 226, 226);
     border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.midi .bulle_2 {
-    position: relative;
-    top: 400px;
-    width: 1200px;
-    height: 750px;
-    background-color: rgba(233, 233, 233, 0.74);
-    box-shadow: 0 0 80px rgb(226, 226, 226);
-    border-radius: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.midiap1 .bulle_2 {
+.midiap2 .bulle_2 {
     position: relative;
     top: 200px;
     width: 900px;
     height: 750px;
     background-color: rgba(233, 233, 233, 0.74);
-    box-shadow: 0 0 80px rgb(226, 226, 226);
+      box-shadow: 0 0 80px rgb(226, 226, 226);
     border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.midiap2 .bulle_2 + .bulle_2 {
+    top: 400px;
+}
+
+.midiap2 .bulle_2 + .bulle_2 + .bulle_2 {
+    top: 600px;
+}
+
+.midiap2 .bulle_2 + .bulle_2 + .bulle_2 + .bulle_2{
+    top: 800px;
+}
+
+
 
 .apresmid .bulle_2 {
     position: relative;
@@ -882,27 +906,31 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 .normal .bulle_2{
     position: relative;
+    top: 100px;
+    width: 900px;
+    height: 400px;
+    background-color: rgba(233, 233, 233, 0.74);
+      box-shadow: 0 0 80px rgb(226, 226, 226);
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.normal .bulle_3{
+    position: relative;
     top: 200px;
     width: 900px;
     height: 400px;
     background-color: rgba(233, 233, 233, 0.74);
       box-shadow: 0 0 80px rgb(226, 226, 226);
     border-radius: 40px;
-    margin-left: 5%
-}
-.normal .bulle_3{
-    position: relative;
-    top: -200px;
-    width: 900px;
-    height: 400px;
-    background-color: rgba(233, 233, 233, 0.74);
-      box-shadow: 0 0 80px rgb(226, 226, 226);
-    border-radius: 40px;
-    margin-left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .normal .bulle_4 {
     position: relative;
+    top:200px;
     width: 900px;
     height: 500px;
     background-color: rgba(233, 233, 233, 0.74);
@@ -915,16 +943,47 @@ background-color: rgba(0, 0, 0, 0.4);
 .dark .bulle_2 {
     background-color: rgba(40, 37, 54, 0.553);
     box-shadow: 0 0 80px rgb(46, 37, 54);
-    width: 900px;
-    height: 800px;
+    height: 725px;
 }
 
+
+
 @media (max-width : 900px) {
+
+    .midiap .bulle_1 {
+        width: 450px;
+    }
+
+    .midiap .in_bulle_1 {
+        width: 450px;
+    }
+
+    .midiap2 .bulle_1 {
+        width: 450px;
+    }
+
+    .midiap2 .in_bulle_1 {
+        width: 450px;
+    }
+    .midiap2 .bulle_2 {
+        
+        width: 450px;
+        
+    }
+    .dark .bulle_2 {
+        width: 450px;
+    }
+
     .bulle_1 {
         width: 430px;
         height: 700px;
     }
     .debut .bulle_1 {
+        width: 430px;
+        height: 450px;
+    }
+
+    .debut1 .bulle_1 {
         width: 430px;
         height: 450px;
     }
@@ -938,38 +997,9 @@ background-color: rgba(0, 0, 0, 0.4);
         width: 430px;
         height: 700px;
     }
-    .midiap .bulle_1{
-        width: 430px;
-        height: 750px;
-    }
-    .midiap .bulle_2{
-        width: 430px;
-        height: 750px;
-    }
-    .midiap1 .bulle_1{
-        width: 430px;
-        height: 750px;
-    }
-    .midiap1 .bulle_2{
-        width: 430px;
-        height: 750px;
-    }
     .apresmid .bulle_1 {
         width: 430px;
         height: 500px;
-    }
-    
-    .midiap .in_bulle_1 {
-        width: 350px;
-        height: 640px;
-        top: 30px;
-        left: 30px;
-    }
-    .midiap1 .in_bulle_1 {
-        width: 350px;
-        height: 640px;
-        top: 30px;
-        left: 30px;
     }
     .midi .in_bulle_1 {
         width: 350px;
